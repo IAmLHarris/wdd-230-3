@@ -42,8 +42,11 @@ main {
 }
 
 footer {
-  padding: 30px;
-  background-color: #bb0006;
+  align-items: center;
+  color: #ffe70c;
+  background-color: #305298;
+  padding: 15px;
+  margin: 25px;
 }
 
 nav ul {
