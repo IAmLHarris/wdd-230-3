@@ -2,11 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
 
 body {
-  margin: 10px 300px;
-
   background-color: white;
   font-family: "Open Sans", sans-serif;
-  padding: 5px 25px;
+  padding: 5px 50px;
   font-size: 18px;
 
   color: #444;
@@ -19,32 +17,48 @@ h1 {
 
 header {
   display: flex;
-  background-color: #bb0006;
+  flex-direction: column;
+  background-color: #305298;
   justify-content: center;
   align-items: center;
-  padding: 50px;
 }
 
 header h1 {
   color: #ffe70c;
   background-color: #305298;
-  padding: 5px;
-  margin: 25px;
+  padding: 15px;
+  margin: 10px;
 }
-header img {
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+
+h2 {
+  margin: 0;
+  color: #ffe70c;
+  margin-bottom: 10px;
 }
 
 img {
-  max-width: 200px;
+  max-width: 250px;
 }
 
 main {
+  display: flex;
   justify-content: center;
   padding: 20px;
+  text-align: center;
+}
+
+MAIN div {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe70c;
+  margin: 10px;
+  padding: 10px;
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
