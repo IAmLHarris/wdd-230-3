@@ -1,0 +1,6 @@
+@media only screen and (min-width: 860px) {
+  main {
+    background-color: yellowgreen;
+    grid-template-columns: repeat(3, auto);
+  }
+}
