@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+:root {
+  --primary-color: #c9c9c9;
+  --secondary-color: #1c97fc;
+  --accent1-color: #3f48cc;
+  --accent2-color: #7f2be6;
+}
+
+.colors {
+  background-color: #999;
+  padding: 10px;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+
+.accent1 {
+  color: var(--accent1-color);
+}
+
+.accent2 {
+  color: var(--accent2-color);
+}
+
+body {
+  margin: 10px 300px;
+
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+
+  color: #444;
+}
+
+h1,
+h2 {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 32px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #bb0006;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+header h1,
+header h2 {
+  color: #ffe70c;
+  background-color: #305298;
+  padding: 5px;
+  margin: 25px;
+}
+header img {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+main {
+  justify-content: center;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  color: #ffe70c;
+  background-color: #305298;
+  padding: 15px;
+  margin: 25px;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+}
+
+.logo-box {
+  width: auto;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.container {
+  background-color: #305298;
+  padding: 70px;
+  margin: auto;
+}
