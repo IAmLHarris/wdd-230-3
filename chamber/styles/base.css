@@ -58,13 +58,15 @@ footer {
 }
 
 nav {
+  font-family: "Roboto";
   background-color: #36454f;
   margin: 0 auto;
-  max-width: 780px;
+  max-width: fit-content;
 }
 
 main .mainContent {
   display: grid;
+  overflow: hidden;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   font-size: 1rem;
@@ -93,6 +95,12 @@ body h2 {
   width: fit-content;
 }
 
+#sec2 p {
+  padding: 5px;
+  background-color: var(--accent2-color);
+  text-align: center;
+}
+
 #sec4 {
   overflow: auto;
 }
@@ -108,6 +116,11 @@ body h2 {
 
   padding: 5px;
 }
+
+#sec6 p {
+  text-align: center;
+}
+
 /* 
 @media only screen and (max-width: 600em) {
   #sec6 {
