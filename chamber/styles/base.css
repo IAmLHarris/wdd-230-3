@@ -83,7 +83,7 @@ body h2 {
 }
 
 #sec1 {
-  background-image: url(https://i.imgur.com/HAumjqx.jpg);
+  background-image: url(/chamber/images/skyline.png);
   background-size: cover;
   background-color: white;
 }
@@ -108,7 +108,7 @@ body h2 {
 
   padding: 5px;
 }
-
+/* 
 @media only screen and (max-width: 600em) {
   #sec6 {
     display: none;
@@ -135,7 +135,7 @@ body h2 {
   .spotlight section:nth-child(3) {
     display: none;
   }
-}
+} */
 
 .spotlight p {
   margin: 0%;
