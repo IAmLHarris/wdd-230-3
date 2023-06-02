@@ -13,6 +13,7 @@ function wanted_image(img) {
 
   img.src = src;
   img.removeAttribute("data-src");
+  img.setAttribute("class", "image-loaded");
 }
 
 if ("IntersectionObserver" in window) {

@@ -19,12 +19,11 @@ body {
 }
 
 img {
-  opacity: 0; /* Start with 0 opacity */
-  transition: opacity 0.3s ease; /* Add a transition effect */
+  opacity: 0;
 }
-
-img.image-loaded {
-  opacity: 1; /* Transition to full opacity when the image is loaded */
+.image-loaded {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 h1 {
