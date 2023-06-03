@@ -38,63 +38,38 @@
     </header>
 
     <main>
-      <div class="mainContent">
-        <section class="mainSelection" id="sec1">
-          <h1>Welcome to the Santiago Chamber of Commerce!</h1>
-        </section>
-
-        <section class="mainSelection" id="sec2">
-          <h2>Event</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            quidem ut, nisi inventore ad reprehenderit.
-          </p>
-        </section>
-
-        <section class="mainSelection" id="sec3">
-          <h2>Weather</h2>
-
-          <div>
-            <p>
-              <span
-                ><img
-                  src="https://openweathermap.org/img/w/50d.png"
-                  alt="haze"
-                  id="weather-icon"
-              /></span>
-              <span id="current-temp"><strong>65</strong></span> °F
-            </p>
-          </div>
-          <hr />
-
-          <figcaption>haze</figcaption>
-
-          <span id="windchill"></span>
-        </section>
-
-        <section class="mainSelection" id="sec4">
-          <h2>News Release</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            facilis in accusamus perferendis illo recusandae esse explicabo
-            neque sequi! Molestias quo dolore nostrum, possimus vitae quas ea
-            dicta blanditiis laborum!
-          </p>
-        </section>
-
-        <section class="mainSelection" id="sec5">
-          <div class="spotlight"></div>
-        </section>
-        <section class="mainSelection" id="sec6">
-          <h2>
-            <a href="/index.html">Join Us Today!</a>
-          </h2>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </section>
+      <div class="lazyload">
+        <h1>Stupid Skylines</h1>
+        <img
+          class="image-unloaded"
+          src="images/placeholder.jpg"
+          data-src="images/city_pics/1.png"
+          alt="Santiago Skyline"
+        />
+        <img
+          class="image-unloaded"
+          src="images/placeholder.jpg"
+          data-src="images/city_pics/2.png"
+          alt="Santiago Skyline"
+        />
+        <img
+          class="image-unloaded"
+          src="images/placeholder.jpg"
+          data-src="images/city_pics/3.png"
+          alt="Santiago Skyline"
+        />
+        <img
+          class="image-unloaded"
+          src="images/placeholder.jpg"
+          data-src="images/city_pics/4.png"
+          alt="Santiago Skyline"
+        />
+        <img
+          class="image-unloaded"
+          src="images/placeholder.jpg"
+          data-src="images/city_pics/5.png"
+          alt="Santiago Skyline"
+        />
       </div>
     </main>
 
@@ -108,5 +83,6 @@
 
     <script src="scripts/date.js"></script>
     <script src="scripts/mod.js"></script>
+    <script src="scripts/lazy.js"></script>
   </body>
 </html>
