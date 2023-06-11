@@ -141,34 +141,46 @@ body h2 {
   text-align: center;
 }
 
-/* 
-@media only screen and (max-width: 600em) {
-  #sec6 {
-    display: none;
-  }
+.contact-container {
+  background-color: rgb(51, 55, 58);
+}
 
-  #sec1 {
-    background-image: url(/chamber/images/licensed-image-min.jpg);
+.required {
+  color: red;
+  font-size: x-small;
+}
 
-    background-color: white;
-  }
+.ugh1 {
+  margin: 3px;
+  display: block;
+}
 
-  #sec5 {
-    height: max-content;
-  }
-  .spotlight {
-    grid-template-rows: repeat(2, 200px);
-    height: max-content;
-  }
+.ugh2 {
+  margin: 3px;
+  display: block;
+}
 
-  .spotlight section {
-    max-height: 300px;
-  }
+fieldset {
+  display: block;
+  width: max-content;
+  max-width: 100px;
+  background-color: #305298;
+}
 
-  .spotlight section:nth-child(3) {
-    display: none;
-  }
-} */
+legend {
+  text-align: center;
+  background-color: #000000;
+  padding: 5px;
+}
+
+form {
+  background-color: rgb(4, 13, 43);
+  font-family: "Roboto", sans-serif;
+  padding: 25px;
+  font-size: 18px;
+  margin: 10px 40px 25px;
+  color: rgb(189, 183, 175);
+}
 
 .spotlight p {
   margin: 0%;
@@ -178,10 +190,6 @@ main picture {
   display: none;
   margin: 1rem;
 }
-
-/* footer {
-  position: fixed;
-} */
 
 footer p {
   font-family: "Courier New", Courier, monospace;

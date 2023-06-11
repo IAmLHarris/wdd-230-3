@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+body {
+  background-color: rgb(4, 13, 43);
+  font-family: "Open Sans", sans-serif;
+  padding: 25px;
+  font-size: 18px;
+  margin: 10px 40px 25px;
+  color: rgb(189, 183, 175);
+}
+
+@media only screen and (min-width: 67em) {
+  body {
+    margin: 10px 400px 25px;
+  }
+}
+
+h1 {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 32px;
+}
+
+head {
+  font-family: "Libre Baskerville", Georgia, serif;
+}
+
+a {
+  font-size: 1em;
+}
+
+header p {
+  text-align: center;
+}
+
+.logo-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-grid {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+.banner-box img {
+  width: 100%;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 90% 1fr 1fr 1fr;
+  background-color: #373e40;
+  color: #b7d5d4;
+}
+
+footer {
+  background-color: #df9216;
+  text-align: center;
+}
+
+a:link {
+  color: #b7d5d4;
+}
+
+/* visited link */
+a:visited {
+  color: #305298;
+}
+
+/* mouse over link */
+a:hover {
+  color: #305298;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+
+.contact-container {
+  background-color: rgb(51, 55, 58);
+}
+
+.required {
+  color: red;
+  font-size: x-small;
+}
+
+.ugh1 {
+  margin: 3px;
+  display: block;
+}
+
+.ugh2 {
+  margin: 3px;
+  display: block;
+}
+
+fieldset {
+  display: block;
+  width: max-content;
+  max-width: 100px;
+  background-color: #305298;
+}
+
+@media screen and (max-width: 550px) {
+  .home-grid,
+  nav ul {
+    display: block;
+  }
+}
