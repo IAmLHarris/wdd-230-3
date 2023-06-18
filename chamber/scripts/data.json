@@ -6,7 +6,7 @@
       "membership": "Gold Membership",
       "address": "1791 Southern Street",
 
-      "imageurl": "./images/thunder.png"
+      "imageurl": "./images/json_img/thunder.png"
     },
     {
       "name": "Kate Rabbit and Associates",
@@ -14,7 +14,7 @@
       "membership": "Silver Membership",
       "address": "1391 Don Jackson Lane",
 
-      "imageurl": "./images/rabbit.png"
+      "imageurl": "./images/json_img/rabbit.png"
     },
     {
       "name": "Parker Industries",
@@ -22,7 +22,7 @@
       "membership": "Bronze Membership",
       "address": "387 Filbert Street",
 
-      "imageurl": "./images/park.png"
+      "imageurl": "./images/json_img/park.png"
     },
     {
       "name": "Warwick Associates",
@@ -30,7 +30,7 @@
       "membership": "Silver Membership",
       "address": "2491 Andy Street",
 
-      "imageurl": "./images/warwick.png"
+      "imageurl": "./images/json_img/warwick.png"
     },
     {
       "name": "Slate Decorating",
@@ -38,7 +38,7 @@
       "membership": "Silver Membership",
       "address": "904 Webster Street",
 
-      "imageurl": "./images/slate.png"
+      "imageurl": "./images/json_img/slate.png"
     },
     {
       "name": "Postage Pals",
@@ -46,7 +46,7 @@
       "membership": "Bronze Membership",
       "address": "2467 Mapleview Drive",
 
-      "imageurl": "./images/postage.png"
+      "imageurl": "./images/json_img/postage.png"
     },
     {
       "name": "Blue Water Engineering",
@@ -54,7 +54,7 @@
       "membership": "Silver Membership",
       "address": "985 Don Jackson Lane",
 
-      "imageurl": "./images/bluewater.png"
+      "imageurl": "./images/json_img/bluewater.png"
     },
     {
       "name": "Wishmonger of Santiago",
@@ -62,7 +62,7 @@
       "membership": "Basic Membership",
       "address": "1065 Cambridge Court",
 
-      "imageurl": "./images/wishmonger.png"
+      "imageurl": "./images/json_img/wishmonger.png"
     },
     {
       "name": "Artemis Coding",
@@ -70,7 +70,7 @@
       "membership": "Silver Membership",
       "address": "2275 Marietta Street",
 
-      "imageurl": "./images/coding.png"
+      "imageurl": "./images/json_img/coding.png"
     }
   ]
 }
