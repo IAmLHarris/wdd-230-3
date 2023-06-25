@@ -121,6 +121,10 @@ body h2 {
   text-align: center;
 }
 
+#sec3 {
+  text-align: center;
+}
+
 #sec4 {
   overflow: auto;
 }
@@ -176,6 +180,12 @@ body h2 {
   padding: 1rem;
   border: 1px solid #000;
   margin: 0.25rem;
+}
+
+#weather-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 35em) {
