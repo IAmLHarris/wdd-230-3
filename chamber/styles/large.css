@@ -2,7 +2,7 @@
   main .mainContent {
     overflow: scroll;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(3, 320px);
   }
 
   #sec1 {
