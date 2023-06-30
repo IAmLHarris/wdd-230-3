@@ -121,9 +121,6 @@ body h2 {
   text-align: center;
 }
 
-#sec1 {
-  background-image: none;
-}
 #sec1 h1 {
   background-color: var(--accent1-color);
   padding: 10px;
