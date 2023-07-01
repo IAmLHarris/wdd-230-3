@@ -167,6 +167,10 @@ body h2 {
   background-color: rgb(51, 55, 58);
 }
 
+.weirdly-specific {
+  text-align: center;
+}
+
 .required {
   color: red;
   font-size: x-small;
