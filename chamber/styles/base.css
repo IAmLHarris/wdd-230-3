@@ -89,6 +89,17 @@ header .headBox {
   padding: 5px;
 }
 
+.navigation a {
+  padding: 7px;
+  color: var(--selection-text);
+  font-size: x-large;
+  transition: background-color 1s;
+}
+
+.navigation a:hover {
+  background-color: var(--accent2-color);
+}
+
 header,
 main,
 footer {
@@ -99,6 +110,7 @@ footer {
 nav {
   font-family: "Roboto";
   background-color: #36454f;
+  padding: 10px;
   margin: 0 auto;
   max-width: fit-content;
 }
