@@ -111,6 +111,10 @@ main .mainSelection {
   background-color: var(--secondary-color);
 }
 
+.spotlight section img {
+  max-width: 25px;
+}
+
 #sec6 h2 {
   background-color: var(--accent2-color);
 

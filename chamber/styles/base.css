@@ -189,6 +189,35 @@ body h2 {
   flex-flow: column;
 }
 
+.menu {
+  margin: 1rem auto;
+  border: 1px solid;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.menu button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.list section img {
+  display: none;
+}
+
+.list section:nth-child(even) {
+  background-color: var(--primary-color);
+}
+
 .buiscards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
