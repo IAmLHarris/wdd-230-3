@@ -56,4 +56,8 @@
   .spotlight section {
     max-width: 300px;
   }
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+  }
 }

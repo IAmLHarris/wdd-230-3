@@ -163,10 +163,6 @@ body h2 {
   text-align: center;
 }
 
-.contact-container {
-  background-color: rgb(51, 55, 58);
-}
-
 .weirdly-specific {
   text-align: center;
 }
@@ -184,6 +180,11 @@ body h2 {
 .ugh2 {
   margin: 3px;
   display: block;
+}
+
+.unexpectancy {
+  display: flex;
+  flex-flow: column;
 }
 
 .buiscards {
