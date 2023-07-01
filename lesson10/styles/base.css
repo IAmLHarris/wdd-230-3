@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+:root {
+  --primary-color: #454a4d;
+  --secondary-color: #1c97fc;
+  --accent1-color: #3f48cc;
+  --accent2-color: #7f2be6;
+
+  --neutral-background: #131516;
+  --neutral-text: #d8d4cf;
+  --selection-background: #004daa;
+  --selection-text: #e8e6e3;
+}
+html {
+  background-color: #131516;
+  color: #e8e6e3;
+}
+h1 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+section {
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #aaa;
+  text-align: center;
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 3px;
+}
+
+header .headBox {
+  background-color: var(--primary-color);
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coa {
+  display: flex;
+}
+
+.santi {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.santi h1 {
+  margin-top: 0;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials img {
+  padding: 5px;
+}
+
+header,
+main,
+footer {
+  /* max-width: 767px; */
+  margin: 0 auto;
+}
+
+nav {
+  font-family: "Roboto";
+  background-color: #36454f;
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+main .mainContent {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  font-size: 1rem;
+  grid-template-rows: repeat(5, 200px);
+  margin: 10px 50px;
+}
+main .mainSelection {
+  margin: 3px;
+  border: 1px solid #000000;
+  padding: 1rem;
+  background-color: #454a4d;
+}
+
+#sec3 {
+  text-align: center;
+}
+
+#sec4 {
+  overflow: auto;
+}
+
+.spotlight {
+  text-align: center;
+  display: grid;
+  background-color: var(--secondary-color);
+}
+
+#sec6 h2 {
+  background-color: var(--accent2-color);
+
+  padding: 5px;
+}
+
+#sec6 p {
+  text-align: center;
+}
+
+.contact-container {
+  background-color: rgb(51, 55, 58);
+}
+
+.required {
+  color: red;
+  font-size: x-small;
+}
+
+#weather-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 35em) {
+  .buiscards {
+    justify-items: center;
+  }
+  img {
+    width: 60%;
+  }
+  section {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  .buiscards {
+    justify-items: center;
+  }
+}
+
+fieldset {
+  display: block;
+  width: max-content;
+  max-width: 100px;
+  background-color: #305298;
+}
+
+legend {
+  text-align: center;
+  background-color: #000000;
+  padding: 5px;
+}
+
+form {
+  background-color: rgb(4, 13, 43);
+  font-family: "Roboto", sans-serif;
+  padding: 25px;
+  font-size: 18px;
+  margin: 10px 40px 25px;
+  color: rgb(189, 183, 175);
+}
+
+.spotlight p {
+  margin: 0%;
+}
+
+main picture {
+  display: none;
+  margin: 1rem;
+}
+
+footer p {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
