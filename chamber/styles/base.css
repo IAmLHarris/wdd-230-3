@@ -254,6 +254,16 @@ body h2 {
   justify-content: center;
 }
 
+.un {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  display: grid;
+  justify-items: center;
+}
+
 @media only screen and (max-width: 35em) {
   .buiscards {
     justify-items: center;

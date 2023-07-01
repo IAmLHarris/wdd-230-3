@@ -10,13 +10,13 @@
       "imageurl": "./images/json_img/bluewater.png"
     },
     {
-      "name": "Wishmonger of Santiago",
-      "website": "wishmonger.com",
-      "membership": "Basic Membership",
-      "address": "1065 Cambridge Court",
-      "phonenum": "(123)-476-7890",
-      "websiteurl": "websitenameH.com",
-      "imageurl": "./images/json_img/wishmonger.png"
+      "name": "Thunder Industries",
+      "website": "thunind.com",
+      "membership": "Gold Membership",
+      "address": "1791 Southern Street",
+      "phonenum": "(123)-456-7890",
+      "websiteurl": "websitenameA.com",
+      "imageurl": "./images/json_img/thunder.png"
     },
     {
       "name": "Artemis Coding",
@@ -28,13 +28,13 @@
       "imageurl": "./images/json_img/coding.png"
     },
     {
-      "name": "Thunder Industries",
-      "website": "thunind.com",
-      "membership": "Gold Membership",
-      "address": "1791 Southern Street",
-      "phonenum": "(123)-456-7890",
-      "websiteurl": "websitenameA.com",
-      "imageurl": "./images/json_img/thunder.png"
+      "name": "Wishmonger of Santiago",
+      "website": "wishmonger.com",
+      "membership": "Basic Membership",
+      "address": "1065 Cambridge Court",
+      "phonenum": "(123)-476-7890",
+      "websiteurl": "websitenameH.com",
+      "imageurl": "./images/json_img/wishmonger.png"
     },
     {
       "name": "Kate Rabbit and Associates",
