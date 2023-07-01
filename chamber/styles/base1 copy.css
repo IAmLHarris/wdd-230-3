@@ -121,6 +121,12 @@ body h2 {
   text-align: center;
 }
 
+#sec1 {
+  background-image: url("/chamber/images/logos/logo.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
 #sec1 h1 {
   background-color: var(--accent1-color);
   padding: 10px;
