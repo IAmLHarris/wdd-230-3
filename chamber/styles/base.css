@@ -81,6 +81,8 @@ header .headBox {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  flex-direction: column;
 }
 
 .socials img {
@@ -194,7 +196,7 @@ body h2 {
 }
 
 .buiscards img {
-  max-width: 100%;
+  max-width: 100px;
   height: auto;
 }
 
@@ -215,7 +217,7 @@ body h2 {
   .buiscards {
     justify-items: center;
   }
-  img {
+  .buiscards img {
     width: 60%;
   }
   section {

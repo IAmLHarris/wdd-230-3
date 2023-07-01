@@ -18,6 +18,8 @@ function displayBuisinesses(buisiness) {
   let website = document.createElement("p");
   let address = document.createElement("p");
   let membership = document.createElement("p");
+  let phonenum = document.createElement("p");
+  let websiteurl = document.createElement("p");
 
   // Change the textContent property of the h2 element to contain the buisiness's full name
   h2.textContent = buisiness.name;
@@ -26,6 +28,8 @@ function displayBuisinesses(buisiness) {
   website.textContent = buisiness.website;
   address.textContent = buisiness.address;
   membership.textContent = buisiness.membership;
+  phonenum.textContent = buisiness.phonenum;
+  websiteurl.textContent = buisiness.websiteurl;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   logo.setAttribute("src", buisiness.imageurl);
@@ -36,6 +40,8 @@ function displayBuisinesses(buisiness) {
   card.appendChild(logo);
   card.appendChild(website);
   card.appendChild(address);
+  card.appendChild(phonenum);
+  card.appendChild(websiteurl);
   card.appendChild(membership);
 
   // Add/append the existing HTML div with the cards class with the section(card)

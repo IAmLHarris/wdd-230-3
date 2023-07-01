@@ -1,59 +1,12 @@
 {
   "buisinesses": [
     {
-      "name": "Thunder Industries",
-      "website": "thunind.com",
-      "membership": "Gold Membership",
-      "address": "1791 Southern Street",
-
-      "imageurl": "./images/json_img/thunder.png"
-    },
-    {
-      "name": "Kate Rabbit and Associates",
-      "website": "rabbitassociates.com",
-      "membership": "Silver Membership",
-      "address": "1391 Don Jackson Lane",
-
-      "imageurl": "./images/json_img/rabbit.png"
-    },
-    {
-      "name": "Parker Industries",
-      "website": "parkind.com",
-      "membership": "Bronze Membership",
-      "address": "387 Filbert Street",
-
-      "imageurl": "./images/json_img/park.png"
-    },
-    {
-      "name": "Warwick Associates",
-      "website": "warwickassociates.com",
-      "membership": "Silver Membership",
-      "address": "2491 Andy Street",
-
-      "imageurl": "./images/json_img/warwick.png"
-    },
-    {
-      "name": "Slate Decorating",
-      "website": "slatedeco.com",
-      "membership": "Silver Membership",
-      "address": "904 Webster Street",
-
-      "imageurl": "./images/json_img/slate.png"
-    },
-    {
-      "name": "Postage Pals",
-      "website": "postagepals.com",
-      "membership": "Bronze Membership",
-      "address": "2467 Mapleview Drive",
-
-      "imageurl": "./images/json_img/postage.png"
-    },
-    {
       "name": "Blue Water Engineering",
       "website": "bluewater.com",
       "membership": "Silver Membership",
       "address": "985 Don Jackson Lane",
-
+      "phonenum": "(123)-466-7890",
+      "websiteurl": "websitenameG.com",
       "imageurl": "./images/json_img/bluewater.png"
     },
     {
@@ -61,7 +14,8 @@
       "website": "wishmonger.com",
       "membership": "Basic Membership",
       "address": "1065 Cambridge Court",
-
+      "phonenum": "(123)-476-7890",
+      "websiteurl": "websitenameH.com",
       "imageurl": "./images/json_img/wishmonger.png"
     },
     {
@@ -69,8 +23,63 @@
       "website": "artemiscoding.com",
       "membership": "Silver Membership",
       "address": "2275 Marietta Street",
-
+      "phonenum": "(123)-486-7890",
+      "websiteurl": "websitenameI.com",
       "imageurl": "./images/json_img/coding.png"
+    },
+    {
+      "name": "Thunder Industries",
+      "website": "thunind.com",
+      "membership": "Gold Membership",
+      "address": "1791 Southern Street",
+      "phonenum": "(123)-456-7890",
+      "websiteurl": "websitenameA.com",
+      "imageurl": "./images/json_img/thunder.png"
+    },
+    {
+      "name": "Kate Rabbit and Associates",
+      "website": "rabbitassociates.com",
+      "membership": "Silver Membership",
+      "address": "1391 Don Jackson Lane",
+      "phonenum": "(123)-556-7890",
+      "websiteurl": "websitenameB.com",
+      "imageurl": "./images/json_img/rabbit.png"
+    },
+    {
+      "name": "Parker Industries",
+      "website": "parkind.com",
+      "membership": "Bronze Membership",
+      "address": "387 Filbert Street",
+      "phonenum": "(123)-656-7890",
+      "websiteurl": "websitenameC.com",
+      "imageurl": "./images/json_img/park.png"
+    },
+    {
+      "name": "Warwick Associates",
+      "website": "warwickassociates.com",
+      "membership": "Silver Membership",
+      "address": "2491 Andy Street",
+      "phonenum": "(123)-756-7890",
+      "websiteurl": "websitenameD.com",
+      "imageurl": "./images/json_img/warwick.png"
+    },
+    {
+      "name": "Slate Decorating",
+      "website": "slatedeco.com",
+      "membership": "Silver Membership",
+      "address": "904 Webster Street",
+      "phonenum": "(123)-856-7890",
+      "websiteurl": "websitenameE.com",
+      "imageurl": "./images/json_img/slate.png"
+    },
+    {
+      "name": "Postage Pals",
+      "website": "postagepals.com",
+      "membership": "Bronze Membership",
+      "address": "2467 Mapleview Drive",
+      "phonenum": "(123)-956-7890",
+      "websiteurl": "websitenameF.com",
+      "imageurl": "./images/json_img/postage.png"
     }
   ]
 }
