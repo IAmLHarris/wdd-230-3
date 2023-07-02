@@ -169,7 +169,7 @@ body h2 {
 .spotlight section {
   display: flex;
   flex-direction: column;
-  background-color: var(--secondary-color);
+  background-color: var(--accent1-color);
   align-items: center;
   padding: 5px;
   border: 5px solid var(--neutral-background);
@@ -180,7 +180,7 @@ body h2 {
 }
 
 .spotlight section > img {
-  max-width: 50px;
+  max-width: 100px;
 }
 
 .spotlight {
