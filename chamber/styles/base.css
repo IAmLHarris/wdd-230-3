@@ -264,6 +264,16 @@ body h2 {
   justify-items: center;
 }
 
+.un #contact-us-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.un #contact-us-form button {
+  max-width: 100px;
+}
+
 @media only screen and (max-width: 35em) {
   .buiscards {
     justify-items: center;
@@ -295,7 +305,7 @@ legend {
   padding: 5px;
 }
 
-form {
+.contact-grid {
   background-color: rgb(4, 13, 43);
   font-family: "Roboto", sans-serif;
   padding: 25px;

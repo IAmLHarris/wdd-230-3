@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut-icon" href="favicon.ico" />
+    <title>memento mori</title>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <!-- <link rel="stylesheet" href="styles/table.css" /> -->
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="headBox">
+        <div class="coa">
+          <a href="../chamber/index.html">
+            <img
+              src="images/logos/logo.png"
+              width="100"
+              height="100"
+              alt="logo for Chamber of Commerce"
+          /></a>
+
+          <div class="santi">
+            <h1>Santiago</h1>
+            <h2>Chamber of Commerce</h2>
+          </div>
+        </div>
+        <div class="socials">
+          <img src="images/logos/google+.png" width="50" height="50" />
+          <img src="images/logos/pinterest.png" width="50" height="50" />
+          <img src="images/logos/twitter.png" width="50" height="50" />
+        </div>
+      </div>
+      <nav>
+        <div class="navigation">
+          <a href="directory.html">Directory</a>
+          <a href="discover.html">Discover</a>
+          <a href="index.html">Home</a>
+          <a href="join.html">Join Us</a>
+        </div>
+        <p><time></time></p>
+      </nav>
+    </header>
+
+    <main>
+      <form class="un" method="get" action="thanks.html">
+        <div class="contact-container" id="contact-us-form">
+          <fieldset>
+            <legend>Contact Us</legend>
+            <label class="ugh1">
+              First Name <span class="required">*Required</span>
+              <input type="text" name="fname" required />
+            </label>
+
+            <label class="ugh1">
+              Last Name <span class="required">*Required</span>
+              <input type="text" name="lname" required />
+            </label>
+
+            <label class="ugh1">
+              Email <span class="required">*Required</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="home@email.com"
+                required
+              />
+            </label>
+
+            <label class="ugh1">
+              Phone Number <span class="required">*Required</span>
+              <input type="tel" name="pnum" required />
+            </label>
+
+            <label class="ugh1">
+              Your concern <span class="required">*Required</span>
+              <input type="text" name="concern" />
+            </label>
+          </fieldset>
+
+          <button type="submit">Contact us!</button>
+        </div>
+      </form>
+      <div class="contact-info"><p>little did I know</p></div>
+    </main>
+
+    <footer>
+      <hr />
+      <p>
+        2023 Santiago Chamber | L.C. Harris | Last Modified:
+        <inline id="mod"></inline>
+      </p>
+    </footer>
+
+    <script src="scripts/date.js"></script>
+    <script src="scripts/mod.js"></script>
+  </body>
+</html>
