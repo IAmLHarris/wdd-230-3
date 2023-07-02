@@ -30,9 +30,15 @@
           </div>
         </div>
         <div class="socials">
-          <img src="images/logos/google+.png" width="50" height="50" />
-          <img src="images/logos/pinterest.png" width="50" height="50" />
-          <img src="images/logos/twitter.png" width="50" height="50" />
+          <a href="https://en.wikipedia.org/wiki/Google%2B">
+            <img src="images/logos/google+.png" width="50" height="50"
+          /></a>
+          <a href="https://www.pinterest.com/"
+            ><img src="images/logos/pinterest.png" width="50" height="50"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img src="images/logos/twitter.png" width="50" height="50"
+          /></a>
         </div>
       </div>
       <nav>
@@ -41,16 +47,17 @@
           <a href="discover.html">Discover</a>
           <a href="index.html">Home</a>
           <a href="join.html">Join Us</a>
+          <a href="contact.html">Contact Us</a>
         </div>
         <p><time></time></p>
       </nav>
     </header>
-
     <main>
-      <form class="un" method="get" action="thanks.html">
-        <div class="contact-container" id="contact-us-form">
+      <div id="contact-us">
+        <form class="contact-us-container" method="get" action="thanks.html">
+          <!-- <div class="contact-us-container" id="contact-us-form"> -->
           <fieldset>
-            <legend>Contact Us</legend>
+            <legend id="legend-large">Contact Us</legend>
             <label class="ugh1">
               First Name <span class="required">*Required</span>
               <input type="text" name="fname" required />
@@ -83,9 +90,16 @@
           </fieldset>
 
           <button type="submit">Contact us!</button>
+          <!-- </div> -->
+        </form>
+        <div class="contact-info">
+          <h1>Visit us!</h1>
+          <p>Guardian Lane 777, Santiago</p>
+          <h1>Contact us!</h1>
+          <p>777-389-8080</p>
+          <p>santiagococ@gmail.com</p>
         </div>
-      </form>
-      <div class="contact-info"><p>little did I know</p></div>
+      </div>
     </main>
 
     <footer>

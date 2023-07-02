@@ -36,7 +36,12 @@
     grid-row: 3 / 4;
     display: block;
   }
-  .spotlight section:nth-child(3) {
+
+  .spotlight {
+    height: 100%;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  #spotlight3 {
     display: block;
     background-color: brown;
   }

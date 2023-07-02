@@ -161,6 +161,15 @@ body h2 {
   overflow: auto;
 }
 
+#sec5 {
+  height: fit-content;
+  overflow: auto;
+}
+
+.spotlight section > img {
+  max-width: 50px;
+}
+
 .spotlight {
   text-align: center;
   display: grid;
@@ -259,9 +268,29 @@ body h2 {
   flex-direction: column;
 }
 
+#legend-large {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#contact-us {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(4, 13, 43);
+  font-family: "Roboto", sans-serif;
+  padding: 25px;
+  font-size: 18px;
+  margin: 10px 40px 25px;
+  color: rgb(189, 183, 175);
+}
+
 .contact-container {
   display: grid;
   justify-items: center;
+}
+
+.contact-us-container {
+  display: block;
 }
 
 .un #contact-us-form {
@@ -270,9 +299,9 @@ body h2 {
   justify-content: center;
 }
 
-.un #contact-us-form button {
+/* .un #contact-us-form button {
   max-width: 100px;
-}
+} */
 
 @media only screen and (max-width: 35em) {
   .buiscards {
