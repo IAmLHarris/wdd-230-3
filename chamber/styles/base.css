@@ -162,8 +162,21 @@ body h2 {
 }
 
 #sec5 {
-  height: fit-content;
-  overflow: auto;
+  grid-column: 1 / 2;
+  grid-row: 5 / 7;
+}
+
+.spotlight section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  align-items: center;
+  padding: 5px;
+  border: 5px solid var(--neutral-background);
+}
+
+#spotlight3 {
+  display: none;
 }
 
 .spotlight section > img {
@@ -173,7 +186,8 @@ body h2 {
 .spotlight {
   text-align: center;
   display: grid;
-  background-color: var(--secondary-color);
+
+  justify-content: center;
 }
 
 #sec6 h2 {
