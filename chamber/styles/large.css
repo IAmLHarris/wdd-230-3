@@ -40,10 +40,10 @@
   .spotlight {
     height: 100%;
     grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto;
   }
   #spotlight3 {
-    display: block;
-    background-color: brown;
+    display: flex;
   }
 }
 /* .spotlight {
