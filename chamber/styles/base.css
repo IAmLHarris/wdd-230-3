@@ -366,7 +366,7 @@ main picture {
   margin: 1rem;
 }
 
-footer p {
+footer {
   font-family: "Courier New", Courier, monospace;
   display: flex;
   flex-direction: column;
