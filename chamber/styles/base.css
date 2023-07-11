@@ -9,7 +9,7 @@
 
   --neutral-background: #131516;
   --neutral-text: #d8d4cf;
-  --selection-background: #004daa;
+  --selection-background: #00397e;
   --selection-text: #e8e6e3;
 }
 html {
@@ -98,6 +98,15 @@ header .headBox {
 
 .navigation a:hover {
   background-color: var(--accent2-color);
+}
+
+a {
+  color: var(--selection-text);
+}
+
+::placeholder {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 header,
@@ -235,7 +244,13 @@ body h2 {
 .menu button {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1rem;
-  font-weight: 700;
+}
+
+button {
+  padding: 3px 10px;
+  max-width: fit-content;
+  color: var(--neutral-background);
+  font-weight: bolder;
 }
 
 .list section {
@@ -280,6 +295,7 @@ body h2 {
 .un {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #legend-large {
@@ -303,14 +319,21 @@ body h2 {
   justify-items: center;
 }
 
+.contact-info {
+  color: var(--selection-text);
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
 .contact-us-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .un #contact-us-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 /* .un #contact-us-form button {
@@ -339,7 +362,9 @@ fieldset {
   display: block;
   width: max-content;
   max-width: 100px;
-  background-color: #305298;
+  background-color: var(--selection-background);
+  color: var(--neutral-text);
+  font-weight: bolder;
 }
 
 legend {
